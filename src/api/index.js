@@ -10,7 +10,6 @@ export const fetchData = async () => {
     // get only parts of data we need
     return { confirmed, recovered, deaths, lastUpdate }
   } catch (error){
-
   }
 }
 // import then call function in app.js
